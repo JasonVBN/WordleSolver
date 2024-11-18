@@ -7,4 +7,5 @@ Solves within 4-5 guesses on average.
 Uses a list of 5757 5-letter words from: 
 https://www-cs-faculty.stanford.edu/~knuth/sgb-words.txt
 
+Example run:
 ![example run 1](https://github.com/JasonVBN/WordleSolver/blob/main/example-run-1.JPG)
