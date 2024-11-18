@@ -8,8 +8,8 @@ wordsList = wordsFile.readlines()
 for i in range(len(wordsList)):
     wordsList[i] = wordsList[i][0:5]
 
-print(wordsList)
-print(len(wordsList))
+# print(wordsList)
+# print(len(wordsList))
 
 guess = random.choice(wordsList)
 
@@ -34,8 +34,9 @@ while True:
         idx += 1
 
     print()
-    print(wordsList)
-    print(len(wordsList))
+    print(f"{len(wordsList)} possibilities remaining")
+    if len(wordsList) <= 50:
+        print(wordsList)
 
     guess = random.choice(wordsList)
 
